@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name='cpp',
-    version='0.0.1',
+    version='1.0.0',
     description='Primera version de cpp!',
     packages = ['cpp'],
     license='MIT',
     author_email='erick.alvarez.met@gmail.com',
-    download_url='',
+    download_url='https://github.com/3r1ck10/cpp/archive/v1.0.0.tar.gz',
     install_requires=['numpy',
-    'pandas','matplotlib','xarray'],
+    'pandas','matplotlib','xarray','seaborn','scikit-learn'],
     classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',
